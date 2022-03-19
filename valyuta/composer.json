@@ -8,18 +8,13 @@
             "Muslim\\Currency\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "Muslim",
-            "email": "muslimjonqoraboyev@gmail.com"
-        }
-    ],
+    "authors": [{
+        "name": "Muslim",
+        "email": "muslimjonqoraboyev@gmail.com"
+    }],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {}
 
-    "autoload": {
-        "psr-4": {
-            "Muslim\\Currency\\": "src/"
-        }
-    }
+
+
 }
