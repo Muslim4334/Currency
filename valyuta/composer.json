@@ -1,0 +1,25 @@
+{
+    "name": "muslim/currency",
+    "description": "This will show currency and save database",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Muslim\\Currency\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muslim",
+            "email": "muslimjonqoraboyev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "Muslim\\Currency\\": "src/"
+        }
+    }
+}
