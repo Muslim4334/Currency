@@ -16,6 +16,14 @@
         "psr-4": {
             "Muslim\\Currency\\": "src/"
         }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Muslim\\Currency\\CurrencyServiceProvider"
+            ]
+        }
     }
 
 
