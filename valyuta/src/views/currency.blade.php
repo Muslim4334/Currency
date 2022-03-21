@@ -16,21 +16,21 @@
 
 
         <label>Valyuta nomi: </label>
-        <input type="hidden"  name="code" value="code"> {{ $collection['code'] }}
-        <input type="hidden" name="title" value="title"> {{ $collection['title'] }},
+        <input type="hidden"  name="code" value="{!! $collection['code'] !!}"> {!! $collection['code'] !!}"
+        <input type="hidden" name="title" value="{!! $collection['title'] !!}"> {!! $collection['title'] !!}
 
 
         <label>Sotib olish:</label>
-        <input type="hidden"  name="buy_price" value="buy_price"> {{ $collection['nbu_buy_price']}},
+        <input type="hidden"  name="buy_price" value="{!! $collection['nbu_buy_price'] !!}"> {!! $collection['nbu_buy_price'] !!}
 
         <label>Sotish:</label>
-        <input type="hidden"  name="cell_price" value="cell_price"> {{ $collection['nbu_cell_price'] }},
+        <input type="hidden"  name="cell_price" value="{!! $collection['nbu_cell_price'] !!}"> {!! $collection['nbu_cell_price'] !!}
         <label>Vaqti:</label>
-        <input type="hidden"  name="data" value="data"> {{ $collection['date'] }},
+        <input type="hidden"  name="data" value="{!! $collection['date'] !!}"> {!! $collection['date'] !!},
 
 
 
-        <button type="submit" style="background-color: #e2e8f0" name="send">Save</button>
+        <button type="Submit" style="background-color: #e2e8f0" name="send">Save</button>
 
     </form>
 
